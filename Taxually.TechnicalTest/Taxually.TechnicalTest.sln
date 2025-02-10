@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxually.TechnicalTest", "Taxually.TechnicalTest\Taxually.TechnicalTest.csproj", "{A119A885-BCD4-473B-861A-480AA3C87EB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxually.Api", "Taxually.Api\Taxually.Api.csproj", "{A119A885-BCD4-473B-861A-480AA3C87EB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxually.Application", "Taxually.Application\Taxually.Application.csproj", "{DCA53BF1-FBC3-43BB-BFFE-FE6D68725EE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxually.Infrastructure", "Taxually.Infrastructure\Taxually.Infrastructure.csproj", "{3B8D1B1E-E59A-41D2-82D9-6CA94204C31A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F17E3022-B404-4581-B4E5-D6D1EC854816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxually.Application.Tests", "tests\Taxually.Application.Tests\Taxually.Application.Tests.csproj", "{76FEEDCB-30C8-49D4-8278-5A7C2135DEE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxually.Api.Tests", "tests\Taxually.Api.Tests\Taxually.Api.Tests.csproj", "{24FE48D1-E79F-48E2-8D96-88A30CE32138}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,11 +25,31 @@ Global
 		{A119A885-BCD4-473B-861A-480AA3C87EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A119A885-BCD4-473B-861A-480AA3C87EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A119A885-BCD4-473B-861A-480AA3C87EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA53BF1-FBC3-43BB-BFFE-FE6D68725EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA53BF1-FBC3-43BB-BFFE-FE6D68725EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA53BF1-FBC3-43BB-BFFE-FE6D68725EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA53BF1-FBC3-43BB-BFFE-FE6D68725EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B8D1B1E-E59A-41D2-82D9-6CA94204C31A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B8D1B1E-E59A-41D2-82D9-6CA94204C31A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B8D1B1E-E59A-41D2-82D9-6CA94204C31A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B8D1B1E-E59A-41D2-82D9-6CA94204C31A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76FEEDCB-30C8-49D4-8278-5A7C2135DEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76FEEDCB-30C8-49D4-8278-5A7C2135DEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76FEEDCB-30C8-49D4-8278-5A7C2135DEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76FEEDCB-30C8-49D4-8278-5A7C2135DEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24FE48D1-E79F-48E2-8D96-88A30CE32138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24FE48D1-E79F-48E2-8D96-88A30CE32138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24FE48D1-E79F-48E2-8D96-88A30CE32138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24FE48D1-E79F-48E2-8D96-88A30CE32138}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4911BEBF-5EE3-4872-9EE7-772C7BEBF303}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76FEEDCB-30C8-49D4-8278-5A7C2135DEE1} = {F17E3022-B404-4581-B4E5-D6D1EC854816}
+		{24FE48D1-E79F-48E2-8D96-88A30CE32138} = {F17E3022-B404-4581-B4E5-D6D1EC854816}
 	EndGlobalSection
 EndGlobal
